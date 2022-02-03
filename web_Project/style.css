@@ -1,0 +1,178 @@
+.main{
+  margin: auto;
+  width: 1000px;
+  border: 1px solid #DEDFC5;
+  font-family: Arial;
+  border-radius: 5px;
+}
+
+.logo{
+  height: 120px;
+  padding: 10px 15px
+}
+.phon {
+  float: right;
+  padding: 30px 30px;
+}
+.a {
+  text-decoration: none;
+  color: #fff;
+  padding: 4px 34px ;
+
+}
+.lia{
+  background-color: orange;
+}
+
+
+
+.menu {
+  width: 1000px;
+  margin: 0;
+  
+  background-color: #ff651e;
+
+  text-align: center;
+
+
+}
+
+.ol, .ul {
+  list-style: none;
+}
+
+.ol {
+  padding: 1px;
+  margin:0;
+  font-size: 1em;
+  height: 20px;
+  line-height: 160%;
+  display: inline-block;
+}
+
+.ol .li  {
+  float: left;
+  width: 110px;
+
+}
+.ol > .li:hover {
+  background-color: #CC3109;
+}
+.ol > .li:hover > .a {
+  color: #451717;
+}
+.ol > .li > .ul  {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  display: none;
+}
+.ol > .li:hover > .ul {
+  display: block;
+}
+.ol > .li > .ul > .li {
+  background-color: #CC3109;
+  position: relative;
+  z-index: 999;
+
+}
+.ol > .li > .ul > .li:hover {
+  background-color: #ff651e;
+}
+.ol > .li > .ul > .li:hover > .a {
+  color: #451717;
+}
+.row{
+  height: 400px;
+
+}
+.row_1{
+  width: 450px;
+  height: 398px;
+
+  display: inline-block;
+  padding: 1px;
+}
+.row_2{
+  width: 535px;
+  height: 396.5px;
+
+  display: inline-block;
+}
+.row_01{
+  height: 250px;
+}
+.row_02{
+  height: 143px;
+
+}
+.row_001{
+  width:144px;
+  height: 137px;
+
+  display: inline-block;
+}
+.ul2 .li2{
+  list-style: none;
+}
+.logo1{
+  height: 250px;
+  padding-left: 30px;
+  padding-bottom: 110px
+
+}
+.ul3 .li3{
+  list-style: none;
+  margin-left: -10px;
+}
+.logo2{
+  /* margin-bottom: 30px;
+  padding-right:30px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  float: left;
+  padding: 0px 25px;
+  margin-top: -40px ;
+
+}
+.h1{
+  text-align: center;
+  margin-left: 10px;
+ }
+.p{
+  padding: 10px;
+  font-family: "Merienda";
+  font-size: 15px;
+}
+.h2{
+  margin-left: 150px;
+  margin-top: 20px
+}
+.p2{
+  padding: 10px 15px;
+  padding: 10px;
+  font-family: "Merienda";
+  font-size: 15px;
+}
+.footer{
+  text-align: center;
+  height:70px;
+  background-color: #fede92;
+
+}
+.p_footer{
+  padding-top: 28px;
+  background-color: #fede92;
+  margin: 0
+}
+.row2{
+  height: 500px;
+  margin-top: 140px;
+}
+
+
+
+
