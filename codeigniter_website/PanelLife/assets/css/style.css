@@ -1,0 +1,186 @@
+.venta-bg{
+	background-image: linear-gradient(to bottom, #5cff95, #85ff83, #a7ff73, #c5ff65, #e2ff59);
+}
+.bg-card{
+	background-color:#5cff95;
+}
+body{
+	background-image: url(../img/body.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+html body{
+	height: 100%;
+	font-family: Bradley Hand, cursive;
+}
+.li:hover{
+	background-color: #5CFF95;
+}
+.main{
+	min-height: 100%;
+	background-color: #fff;
+}
+.main_wrapper{
+	background-color: #fff;
+  	padding-bottom:150px; /* this needs to be bigger than footer height*/
+  	height: 100%;
+}
+.btn-venta{
+	color: #fff;
+    border-color: #fff;
+}
+.btn-venta:hover{
+	color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+.card_img{
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+}
+.card_description{
+	height: 50px;
+	overflow: hidden;
+}
+.card_img img{
+	transition: all .2s ease;
+}
+.card_img img:hover{
+	transform: scale(1.1);
+}
+#loading{
+	width: 100%;
+	height: 100%;
+	background-color: #000000ba;
+	position: fixed;
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.slider{
+	position: relative;
+	width: 100%;
+}
+.bg_transp{
+	width: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 100%;
+	background-image: linear-gradient(#0000 60%, #000 100%);
+	z-index: 1;
+}
+.footer{
+	position: relative;
+	clear:both;
+	padding-top:20px;
+}
+.social ul{
+	list-style-type: none;
+}
+.social ul li{
+	width: 40px;
+}
+.social ul li img{
+	width: 100%;
+}
+.copyright{
+	color: #fff;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #010100;
+    border-color: #010100;
+}
+.page-link{
+	color: #010100;
+}
+#musicBtn{
+	cursor: url(../img/play-button.png),pointer;
+}
+.blog_post-image{
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;	
+}
+.blog_post-transp{
+	width: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 300px;
+	background-image: linear-gradient(#00000073 54%, #000000cf 100%);
+	z-index: 0;
+}
+.blog_media{
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 5px;
+	box-shadow: 0px 0px 2px #ccc;
+	overflow: hidden;
+    height: 90px;
+    cursor: pointer;
+}
+.ml-10em{
+	margin-left: 10em;
+}
+.forum_item_board{
+	border-radius: 8px;
+	border:1px solid #ccc;
+	padding: 10px;
+}
+.forum_like a{
+	color:#212121;
+	transition: all .2s ease;
+}
+.forum_like a:hover{
+	text-decoration: none;
+	color:#8d8d8d;
+}
+.avatar_list{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	flex-wrap: wrap;
+}
+.avatar_list li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.success_img{
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media (max-width: 992px){
+	.ml-10em{
+		margin-left: 0;
+	}
+}
+
+
+.active{
+	color: blue;
+	background-color: #5CFF95;
+}
+
+.main1{
+	height: 600px;
+}
